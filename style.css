@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url("stadium.jpg") center/cover no-repeat;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 420px;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.tagline {
+    color: #d1d1d1;
+    margin-top: 5px;
+}
+
+.subs {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 20px;
+    color: #dfff00;
+}
+
+.subs-text {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.join-btn {
+    background: #eaff00;
+    color: #000;
+    border: none;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.join-btn:hover {
+    opacity: 0.9;
+}
+
+.fade-btn {
+    animation: fade 1.8s infinite ease-in-out;
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+.logo-box {
+    margin: 25px 0;
+}
+
+.logo-box img {
+    width: 72%;
+    border-radius: 50%;
+}
+
+.timer-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.disclaimer {
+    margin-top: 25px;
+    color: #bbb;
+    font-size: 5px;
+    line-height: 1.5;
+}
